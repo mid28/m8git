@@ -1,5 +1,6 @@
 <?php
 //HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 session_start ();
 
 $ldapconn = ldap_connect ( "localhost" ) or die ( "Could not connect to LDAP server." );
